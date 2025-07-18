@@ -19,5 +19,3 @@ Uma aplicação que permite buscar informações de endereço a partir do CEP, a
 - Mapa com a localização correspondente ao CEP fornecido.
 
 ## 📸 Prévia do Projeto
-
-in soon
