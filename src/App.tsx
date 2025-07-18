@@ -34,7 +34,6 @@ function App() {
 
   const fetchCep = async () => {
     const cleanCep = removeCepMask(cep);
-    console.log("Fetching CEP:", cleanCep);
     if (cleanCep.length !== 8) {
       toast.error("CEP inválido. Deve conter 8 dígitos.");
       return;
@@ -65,6 +64,7 @@ function App() {
       setLng(location.lng);
 
       if (!location) {
+        toast.error("Localização não encontrada para o endereço fornecido.");
         console.error("Localização não encontrada.");
         return;
       }

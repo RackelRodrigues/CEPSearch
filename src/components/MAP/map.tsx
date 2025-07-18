@@ -10,7 +10,6 @@ interface Props {
 
 const Map: React.FC<Props> = ({ lat, lng }) => {
   if (!lat || !lng) return null;
-  console.log("Map coordinates:", lat, lng);
   return (
     <MapContainer
       center={[lat, lng]}
