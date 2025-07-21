@@ -77,8 +77,8 @@ function App() {
   return (
     <div className="w-full h-screen relative ">
       <div
-        className="w-full h-80 flex items-center justify-center bg-[url('images/pattern-bg-mobile.png')]
-    sm:bg-[url('images/pattern-bg-desktop.png')] bg-cover bg-center"
+        className="w-full h-80 flex items-center justify-center bg-[url('/images/pattern-bg-mobile.png')]
+    sm:bg-[url('/images/pattern-bg-desktop.png')] bg-cover bg-center"
       >
         <div className="absolute flex flex-col text-center items-center justify-center gap-5">
           <h2 className=" text-white text-4xl font-bebas font-bold">
