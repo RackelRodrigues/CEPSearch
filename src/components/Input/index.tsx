@@ -14,7 +14,7 @@ const Input: React.FC<Props> = ({ onClick, onChange, value, placeholder }) => {
         value={value}
         onChange={onChange}
         placeholder={placeholder}
-        className=" w-full h-full flex-1 bg-transparent text-black placeholder:text-black outline-none pl-5"
+        className=" w-full h-full flex-1 bg-transparent text-black placeholder:text-black outline-none"
       />
 
       <button

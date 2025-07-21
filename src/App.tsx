@@ -62,13 +62,14 @@ function App() {
 
       setLat(location.lat);
       setLng(location.lng);
-
+      setCep("");
       if (!location) {
         toast.error("Localização não encontrada para o endereço fornecido.");
         console.error("Localização não encontrada.");
         return;
       }
     } catch (error) {
+      toast.error("erro ao buscar endereço");
       console.error("Erro ao buscar endereço ou coordenadas:", error);
     }
   };
@@ -84,7 +85,7 @@ function App() {
             CEP Search
           </h2>
           <Input
-            placeholder="Digite seu CEP"
+            placeholder="Enter your postal code"
             value={cep}
             onChange={handleChange}
             onClick={fetchCep}

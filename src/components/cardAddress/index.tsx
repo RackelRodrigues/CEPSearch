@@ -12,8 +12,8 @@ const CardAddress = ({ data }: Props) => {
   };
 
   return (
-    <div className="w-78 h-20 xl:w-3xl sm:w-lg bg-white xl:h-32 grid grid-cols-4 flex divide-x divide-gray-300 items-center justify-center rounded-lg shadow-md">
-      <div className="flex flex-col items-center justify-center border-r border-gray-300 last:border-r-0">
+    <div className="w-78 h-20 xl:w-3xl sm:w-lg bg-white xl:h-32 grid grid-cols-4 flex items-center justify-center rounded-lg shadow-md">
+      <div className="flex flex-col items-center justify-center">
         <p className="font-light text-[hsl(0,0%,58%)] font-rubik xl:text-md sm:text-sm text-xs  ">
           ZIP Code:
         </p>
@@ -21,7 +21,7 @@ const CardAddress = ({ data }: Props) => {
           {formatarCep(data.cep)}
         </h3>
       </div>
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center border-r">
         <p className="font-light text-[hsl(0,0%,58%)] font-rubik xl:text-md sm:text-sm text-xs">
           Street:
         </p>
