@@ -15,7 +15,7 @@ const CardAddress = ({ data }: Props) => {
     <div className="w-78 h-20 xl:w-3xl sm:gap-8 xl:gap-0 sm:p-5  sm:w-lg bg-white md:py-4  xl:h-32 grid grid-cols-4 flex items-center justify-center rounded-lg shadow-md text-center">
       <div className="flex flex-col items-center justify-center ">
         <p className="font-light text-[hsl(0,0%,58%)] font-rubik xl:text-md sm:text-sm text-xs  ">
-          ZIP Code:
+          CEP:
         </p>
         <h3 className="font-bold text-[hsl(0,0%,17%)] font-rubik xl:text-lg sm:text-md  text-xs">
           {formatarCep(data.cep)}

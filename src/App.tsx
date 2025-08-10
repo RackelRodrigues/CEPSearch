@@ -82,7 +82,7 @@ function App() {
       >
         <div className="absolute flex flex-col text-center items-center justify-center gap-5">
           <h2 className=" text-white text-4xl font-bebas font-bold">
-            CEP Search
+            CEP SEARCH
           </h2>
           <Input
             placeholder="Enter your postal code"
